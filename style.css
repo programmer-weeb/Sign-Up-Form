@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "theOdin";
+    src: url(fonts/Norse-Bold.otf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+main {
+    font-family: theOdin;
+}
