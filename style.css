@@ -13,6 +13,9 @@
 main {
     font-family: theOdin;
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 body {
@@ -22,8 +25,26 @@ body {
 .logo {
     width: 30%;
     background: rgba(0, 0, 0, 0.445);
+    background-repeat: no-repeat;
+    display: flex    ;
+    margin: 3rem;
 }
 
 .logo span {
     font-size: 200px;
+}
+
+.rightDiv {
+    background-color: black;
+    height: 100vh;
+    padding: 2rem;
+
+}
+.flex {
+    display: flex;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+.leftInputs {
+    margin-right: 33px;
 }
