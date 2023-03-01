@@ -37,8 +37,13 @@ body {
 .rightDiv {
     background-color: black;
     height: 100vh;
-    padding: 2rem;
+    width: 60vw;
+    padding-top: 20%;
+    align-content: center;
+}
 
+.rightDiv > * {
+    padding-left: 11%;
 }
 .flex {
     display: flex;
